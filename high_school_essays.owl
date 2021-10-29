@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hocker/ontologies/high_school_essays#"
+     xml:base="http://www.semanticweb.org/hocker/ontologies/high_school_essays"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Additional_resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Additional_resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Assessment_of_Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Assessment_of_Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment_text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment_text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comments_on_handwriting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comments_on_handwriting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_Comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_Comment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_of_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_of_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Ende_point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Ende_point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Gender_of_students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Gender_of_students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Grade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Grade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception_of_School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception_of_School">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_School"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception_of_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception_of_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law_classification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law_classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Link_to_full_text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Link_to_full_text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Missing_essays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Missing_essays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_School">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_existing_essays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_existing_essays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_transcribed_essays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_transcribed_essays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Page_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Page_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Researcher_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Researcher_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#School -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#School_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_comment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#State_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Text_of_essay -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Text_of_essay">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topics_of_essays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topics_of_essays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Type_of_writing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Type_of_writing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#URN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#URN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#Writing_material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Writing_material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#class_ID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#class_ID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#comments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#comments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Publisher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Publisher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Literature_on_high_school_essays"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Additional_resources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Gender_of_students"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Missing_essays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_existing_essays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_students"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Number_of_transcribed_essays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topics_of_essays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#URN"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#class_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#comments"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Annotation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#School_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Teacher_comment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Assessment_of_Teacher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comments_on_handwriting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Grade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Page_area"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Student"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Text_of_essay"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Topic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Type_of_writing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Writing_material"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Classification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Author"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Publisher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Title"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Year"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Ende_point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Link_to_full_text"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Researcher_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Ende_point"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Researcher_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_point"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Comment_text"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_Comment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Essay_ID"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_Teacher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Start_comment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#End_of_state"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Inception_of_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#Name_of_State"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Author"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Publisher"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Title"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hocker/ontologies/high_school_essays#DC:Year"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
