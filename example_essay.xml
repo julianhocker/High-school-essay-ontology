@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- Dies ist die Beschreibung, die für den gesamten Klassensatz gilt -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>GHO 673</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Projekt „Abiturprüfungspraxis und Abituraufsatz 1882 bis 1972“</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note>Anmerkungen der Transkriptor*innen zum Text: Jahrgang 1964/65</note>
+         </notesStmt>
+         <sourceDesc>
+            <listPerson>
+               <head>Beteiligte Personen</head>
+               <person role="teacher">
+                  <persName>
+                     <forename/>
+                     <surname/>
+                  </persName>
+                  <sex>M</sex>
+                  <idno>ID der Person: ONUED</idno>
+               </person>
+               <person role="teacher">
+                  <persName>
+                     <forename/>
+                     <surname/>
+                  </persName>
+                  <sex>M/F: unklar</sex>
+                  <idno>ID der Person: nicht zugewiesen</idno>
+               </person>
+            </listPerson>
+            <listEvent>
+               <event>
+                  <head><date when="1965-01-11">1965-01-11</date></head>
+                  <desc>Datum der Abiturprüfung</desc>
+               </event>
+            </listEvent>
+            <listOrg>
+               <org>
+                  <name>Vereinigte Georg-Herwegh-Schule und Hans-Thoma-Schule</name>
+                  <placeName>Berlin</placeName>
+                  <state>
+                     <p>Deutschland</p>
+                  </state>
+               </org>
+            </listOrg>
+            <list type="Aufsatzthemen">
+               <item>Was macht Ihrer Meinung nach literarische Werke wertvoll? Begründen Sie Ihre
+                  Ansichten! (Anzahl: 2)</item>
+               <item>Weisen Sie an markanten Dichtungsbeispielen für mitmenschliche Beziehungen
+                  nach, worauf sich die Gesellschaftskritik Max Frischs konzentriert. (Anzahl:
+                  9)</item>
+               <item>Worin erblicken Sie nach Ihrer eigenen Erfahrung und Meinung den Wert eines
+                  internationale Schüleraustauschs? [ "u." handschriftlich geändert in "und"]
+                  (Anzahl: 3)</item>
+               <item>Interpretieren Sie an Hand der Textvorlage u. unter Berücksichtigung der Ihnen
+                  bekannten Werke des sozialkritischen Dichters das Geschichts- und Menschenbild
+                  Georg Büchners. [ "u." handschriftlich geändert in "und"] (Anzahl: 2)</item>
+            </list>
+            <list type="allgemeine_Metadaten">
+               <item ana="Geshlechterverteilung">koedukativ</item>
+               <item ana="Hilfsmittel">keine Angaben</item>
+               <item ana="Anzahl Schüler*innen">20 </item>
+               <item ana="Anzahl vorhandener Aufsätze">16</item>
+               <item ana="Anzahl transkribierter Aufsätze">13</item>
+               <item ana="Fehlende Arbeiten">4 Arbeiten sind nicht im Bestand erhalten</item>
+               <item ana="Auffällige Korrektur">falsch</item>
+               <item ana="Korrekturfarbe 1">rot</item>
+               <item ana="Korrekturfarbe 2"> </item>
+               <item ana="urn">urn:nbn:de:0111-bbf-spo-18204869</item>
+               <item ana="Kommentar auf Aufgabenblatt">zu Thema 3: Die Klasse führte im April u.
+                  Juni 1964 einen Schüleraustausch mit Kopenhagen durch.</item>
+               <item ana="Kommentar auf Aufgabenblatt">zu Thema 4: Textstelle ist die Rede von St.
+                  Just vor dem Nationalkonvent in Büchners Drama "Danton". (Insel-Ausgabe S. 49
+                  unten bis S. 51 Mitte) Ich bitte, die Benutzung von Büchners Drama "Danton" zu
+                  gestatten.</item>
+               <item ana="Weitere Dokumente">Textauszug (s. Aufgabenstellung), Themenliste,
+                  Schülerliste mit Noten und Seitenzahlen im Aktendeckel, Liste des
+                  Prüfungsausschusses auf dem Aktendeckel, Liste mit Korrekturzeichen</item>
+            </list>
+            <msDesc>
+               <msIdentifier>
+                  <institution>DIPF/BBF/Archiv</institution>
+                  <idno>GHO 673</idno> 
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Transkribiert für das Projekt „Abiturprüfungspraxis und Abituraufsatz 1882 bis
+               1972“.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Siehe separate Editionsrichtlinien.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="student">Schüler/in</handNote>
+            <handNote xml:id="teacher1">Lehrer/in 1</handNote>
+            <handNote xml:id="teacher2">Lehrer/in 2</handNote>
+         </handNotes>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-07-05"> Korrekturgelesen </change>
+         <change when="2017-07-04"> Erste Version </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- Ab hier startet der erste Aufsatz -->
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Weisen Sie an markanten Dichtungsbeispielen für mitmenschliche Beziehungen
+                  nach, worauf sich die Gesellschaftskritik Max Frischs konzentriert.</title>
+            </titleStmt>
+            <publicationStmt>
+               <publisher>Projekt „Abiturprüfungspraxis und Abituraufsatz 1882 bis 1972“</publisher>
+            </publicationStmt>
+            <notesStmt>
+               <note>[Anmerkungen der Transkriptor*innen zum Text]</note>
+            </notesStmt>
+            <sourceDesc>
+               <listPerson>
+                  <head>Schüler/in</head>
+                  <person role="student">
+                     <persName>
+                        <forename/>
+                        <surname/>
+                     </persName>
+                     <sex>F</sex>
+                     <idno>XQWVA</idno>
+                     <occupation role="Father"/>
+                     <occupation role="Aspiration"/>
+                  </person>
+               </listPerson>
+               
+               <list type="allgemeine_Metadaten">
+                  <item ana="Note">Befriedigend </item>
+                  <item ana="Vornote">Befriedigend</item>
+                  <item ana="Thema">Weisen Sie an markanten Dichtungsbeispielen für mitmenschliche
+                     Beziehungen nach, worauf sich die Gesellschaftskritik Max Frischs
+                     konzentriert.</item>
+                  <item ana="Seitenspiegel">halbe Seite</item>
+                  <item ana="Schrifttyp">Latein</item>
+                  <item ana="Beschreibstoff">Doppelbögen, liniert</item>
+                  <item ana="Merkmale der Handschrift">keine Auffälligkeiten </item>
+                  <item ana="Disposition vorhanden">WAHR</item>
+               </list>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div type="student-essay">
+               <p><pb facs="urn:nbn:de:0111-bbf-spo-18205088" n="12r"/>Weisen Sie an markanten
+                  Dichtungsbeispielen für mitmenschliche Beziehungen nach, worauf sich die
+                  Gesellschaftskritik Max Frischs konzentriert!</p>
+                  <p>In allen mir bekannten Werken<hi rend="underline" hand="#teacher1"> </hi>
+                     <add hand="#teacher1" place="margin">[x1] des Dichters</add> ist die Kritik an
+                     der heutigen Gesellschaft und am modernen Menschen das <add hand="#student"
+                        place="margin">5</add> Hauptanliegen Max Frischs. Betrachten möchte ich
+                     daraufhin seine Bühnenstücke "Andorra"<del hand="#student" rend="strikethrough"
+                        >,</del> und "Graf Öderland", sowie seinen Roman "Homo <add hand="#student"
+                        place="margin">10</add> Faber".</p>
+                  <p>Frisch cha<hi rend="underline" hand="#teacher1">r</hi>kterisiert <add
+                        hand="#teacher1" place="margin">[x1] a</add> die Gesellschaft, die
+                     Mitmenschen des </p>
+                  <p><add hand="#student" place="margin">1</add>
+                     <add hand="#teacher1" place="margin">25</add>
+                     <pb facs="urn:nbn:de:0111-bbf-spo-18205095" n="12r_12v"/> Andri in "Andorra"
+                     als feige und verlogen. Der Lehrer ist <add hand="#student" place="margin"
+                        >15</add> zu feige, um Andri öffentlich als seinen Sohn anzuerkennen, um
+                     dieser Feigheit willen muß Andri am Ende des Stückes sterben. <add
+                        hand="#student" place="margin">20</add></p> 
+               <!-- Text shortened -->
+            </div>
+            <div hand="#teacher1" type="teacher-assessment">
+               <p>Ein die Einzeluntersuchungen zusammenfassender Schluß fehlt.</p>
+               <p>Sonst guter Aufsatz. Der Stil ist prägnant; keine Fehler oder Mängel- souveräne
+                  Auswertung der literarischen Vorwürfe, sicheres Urteil, geglückte Verknüpfung der
+                  Einzeluntersuchungen im Hauptteil.</p>
+               <p>Vollauf befriedigend</p>
+               <p>Vorzensur: Befriedigend</p>
+            </div>
+         </body>
+      </text>
+   </TEI>
+ <!-- Add more essays here -->
+</teiCorpus>
